@@ -8,7 +8,13 @@ const specialEl= document.getElementById('special');
 const createEl= document.getElementById('create');
 const resultEl= document.getElementById('result');
 
-
+randomFunc ={
+   
+    upper: getRandomUpper,
+    lower: getRandomLower,
+	number: getRandomNumeric,
+	special: getRandomSpecial
+ };
 
 createEl.addEventListener('click', () => {
 
@@ -25,4 +31,35 @@ resultEl.innerHTML = createPassword(
 });
 
 
+function createPassword(upper, lower, number, special, length){
 
+   
+    let newPassword = '';
+
+    const modifiers = upper + lower + number + special;
+
+    const modifiersArray = [{upper}+{lower}+{number}+{symbol}].filter
+
+(item => Object.values(item)[0]);
+
+if (modifiers === 0){
+    alert ("You must select at least one character type");
+
+    return '';
+}
+
+for (let i = 0; i<length; i+= modifiers) {
+
+    modifiersArray.forEach(type =>{
+
+        const funcName = Object.keys(type)[0];
+
+        newPassword += randomFunc[funcName]();
+    });
+
+}
+    const finalPassword = newPassword;
+
+    return finalPassword;
+
+}
