@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1 class="display-4">Password Generator</h1>
+      
+        Password Length (between 8 and 128 characters): <input type="number" name="quantity" id= "length" min="8" max="128">
+        <input type="submit">
+     <br>
+      Include the following? (Must select a MINIMUM of one)
+      <br>
+      <input type="checkbox" id = "uppercase" checked> UPPERCASE LETTERS (ex. A, B, C)<br>
+      <input type="checkbox" id = "lowercase" checked> lowercase letters (ex. d, e, f)<br>
+      <input type="checkbox" id = "numeric" checked> Numeric Characters (ex. 1, 2, 3)<br>
+      <input type="checkbox" id = "special" checked> Special Characters (ex. #, !, ?)<br>
+
+
+
+
+     
+      <hr class="my-4">
+      <button class="btn btn-primary btn-lg" id="create">Create Password</button>
+    </div>
+   
+
+  </body>
+</html>
+
+
+
+
+
