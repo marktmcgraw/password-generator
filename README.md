@@ -1,9 +1,13 @@
 # Password Generator App
 Using Javascript, create a random password generator.
 
-## Depployed Site
+## Deployed Site
 
 [Password Generator](https://marktmcgraw.github.io/password-generator/)
+
+### Demo
+
+![Password Generator Demo](assets/password-generator_demo.gif)
 
 ### License
 
