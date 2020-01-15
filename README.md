@@ -1,5 +1,5 @@
 # Password Generator App
-A mobile-responsive random password generator built with javascript and bootstrap tools.
+A mobile-responsive random password generator built with javascript and Bootstrap tools.
 
 ## Deployed Site
 
@@ -17,3 +17,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ### Acknowledgements
 
 W3Schools platform provided code for user input options.
+Jumbotron and button styling code provided by Bootstrap tools.
