@@ -1,5 +1,5 @@
 # Password Generator App
-Using Javascript, create a random password generator.
+A mobile-responsive random password generator built with javascript and bootstrap tools.
 
 ## Deployed Site
 
