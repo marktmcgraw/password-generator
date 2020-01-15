@@ -1,0 +1,25 @@
+.main {
+
+    background-color: #0B3C5D;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+
+    text-emphasis: bold;
+}
+
+#create {
+
+    background-color: #D9B310;
+}
+
+#result {
+    background-color: #328CC1;
+    text-align: center;
+    color: white;
+    text-emphasis: bold;
+    font-size: 60px;
+    bottom: 0;
+}
